@@ -1,0 +1,28 @@
+diff --git a/plugin.cfg b/plugin.cfg
+index 628e7141..72c3a456 100644
+--- a/plugin.cfg
++++ b/plugin.cfg
+@@ -44,6 +44,7 @@ any:any
+ chaos:chaos
+ loadbalance:loadbalance
+ cache:cache
++finalize:github.com/tmeckel/coredns-finalizer
+ rewrite:rewrite
+ header:header
+ dnssec:dnssec
+@@ -51,6 +52,7 @@ autopath:autopath
+ minimal:minimal
+ template:template
+ transfer:transfer
++records:github.com/coredns/records
+ hosts:hosts
+ route53:route53
+ azure:azure
+@@ -62,6 +64,7 @@ auto:auto
+ secondary:secondary
+ etcd:etcd
+ loop:loop
++alternate:github.com/coredns/alternate
+ forward:forward
+ grpc:grpc
+ erratic:erratic
